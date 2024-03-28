@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Simple Calculator</title>
+</head>
+<body>
+    <div class="calculator">
+        <input id="calc" readonly>
+        <div class="grid-container">   
+            <button id="addition" style="background-color: red;" onclick="ClickAppend('+')">+</button>
+            <button id="num-button" onclick="ClickAppend('1')">1</button>
+            <button id="num-button" onclick="ClickAppend('2')">2</button>
+            <button id="num-button" onclick="ClickAppend('3')">3</button>
+            <button id="subtraction" style="background-color: red;" onclick="ClickAppend('-')">-</button>
+            <button id="num-button" onclick="ClickAppend('4')">4</button>
+            <button id="num-button" onclick="ClickAppend('5')">5</button>
+            <button id="num-button" onclick="ClickAppend('6')">6</button>
+            <button id="multiplication" style="background-color: red;" onclick="ClickAppend('*')">x</button>
+            <button id="num-button" onclick="ClickAppend('7')">7</button>
+            <button id="num-button" onclick="ClickAppend('8')">8</button>
+            <button id="num-button" onclick="ClickAppend('9')">9</button>
+            <button id="division" style="background-color: red;" onclick="ClickAppend('/')">/</button>
+            <button id="dot" onclick="ClickAppend('.')">.</button>
+            <button id="num-button" onclick="ClickAppend('0')">0</button>
+            <button id="equal" style="background-color: red;" onclick="CalculateDisplay()">=</button>
+            <button id="reset" style="background-color: red;" onclick="ResetDisplay()">C</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
